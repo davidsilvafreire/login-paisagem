@@ -1,0 +1,76 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body
+{
+    background: url('imagem/background-image.jpg');
+    background-position: center bottom;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.caixa
+{
+    width: 400px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 255, 0.466);
+    text-align: center;
+    border-radius: 20px;
+}
+.caixa h1
+{
+    color: white;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.caixa input[type="text"], .caixa input[type="password"]
+{
+    border: none;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid rgba(0, 0, 0, 0.644);
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: #fff;
+    border-radius: 24px;
+    transition: 0.50s;
+}
+.caixa .text:focus, .caixa .password:focus
+{
+    width: 280px;
+    border-color: rgba(255, 255, 255, 0.747);
+    transition: 0.50s;
+}
+.caixa .submit
+{
+    border: none;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid rgba(0, 0, 0, 0.644);
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: #fff;
+    border-radius: 24px;
+    transition: 0.50s;
+    font-size: 14px;
+}
+.submit:hover
+{
+    background-color: #fff;
+    color: blue;
+    transition: 0.30s;
+}
